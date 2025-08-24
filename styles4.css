@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #f4f7fa;
+    color: #5d6470;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #34577C;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: #e8ecef;
+}
+
+.button {
+    background-color: #5C85AD;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.button:hover, .button:focus {
+    background-color: #4a6880;
+    transform: translateY(-3px);
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+#fatigue-logs {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.log-entry {
+    border-bottom: 1px solid #e3e8ee;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.log-entry:last-child {
+    border-bottom: none;
+}
+
+.log-entry time {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #34577C;
+}
+
+.log-entry p {
+    margin: 0;
+    font-weight: 500;
+    color: #5d6470;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #34577C;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .button {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+
+    #fatigue-logs {
+        padding: 15px;
+    }
+
+    .log-entry {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .log-entry time {
+        margin-bottom: 10px;
+    }
+}
