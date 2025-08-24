@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F92E90ED2BCB9767005127CD /* WAvE_haptics_watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F92E90EC2BCB9767005127CD /* WAvE_haptics_watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F92E90F22BCB9767005127CD /* WAvE_haptics_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92E90F12BCB9767005127CD /* WAvE_haptics_watchApp.swift */; };
+		F92E90F42BCB9767005127CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92E90F32BCB9767005127CD /* ContentView.swift */; };
+		F92E90F62BCB9768005127CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92E90F52BCB9768005127CD /* Assets.xcassets */; };
+		F92E90F92BCB9768005127CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92E90F82BCB9768005127CD /* Preview Assets.xcassets */; };
+		F92E91032BCB9768005127CD /* WAvE_haptics_watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92E91022BCB9768005127CD /* WAvE_haptics_watch_Watch_AppTests.swift */; };
+		F92E910D2BCB9768005127CD /* WAvE_haptics_watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92E910C2BCB9768005127CD /* WAvE_haptics_watch_Watch_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F92E90EE2BCB9767005127CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F92E90E02BCB9766005127CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F92E90EB2BCB9767005127CD;
+			remoteInfo = "WAvE_haptics_watch Watch App";
+		};
+		F92E90FF2BCB9768005127CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F92E90E02BCB9766005127CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F92E90EB2BCB9767005127CD;
+			remoteInfo = "WAvE_haptics_watch Watch App";
+		};
+		F92E91092BCB9768005127CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F92E90E02BCB9766005127CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F92E90EB2BCB9767005127CD;
+			remoteInfo = "WAvE_haptics_watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F92E91152BCB9768005127CD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F92E90ED2BCB9767005127CD /* WAvE_haptics_watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F92E90E62BCB9766005127CD /* WAvE_haptics_watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAvE_haptics_watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92E90EC2BCB9767005127CD /* WAvE_haptics_watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WAvE_haptics_watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92E90F12BCB9767005127CD /* WAvE_haptics_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAvE_haptics_watchApp.swift; sourceTree = "<group>"; };
+		F92E90F32BCB9767005127CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F92E90F52BCB9768005127CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F92E90F82BCB9768005127CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F92E90FE2BCB9768005127CD /* WAvE_haptics_watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WAvE_haptics_watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92E91022BCB9768005127CD /* WAvE_haptics_watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAvE_haptics_watch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		F92E91082BCB9768005127CD /* WAvE_haptics_watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WAvE_haptics_watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92E910C2BCB9768005127CD /* WAvE_haptics_watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAvE_haptics_watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		F97F9A872BD0E2FC000675ED /* WAvE_haptics_watch_one.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = WAvE_haptics_watch_one.xctestplan; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F92E90E92BCB9767005127CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92E90FB2BCB9768005127CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92E91052BCB9768005127CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F92E90DF2BCB9766005127CD = {
+			isa = PBXGroup;
+			children = (
+				F97F9A872BD0E2FC000675ED /* WAvE_haptics_watch_one.xctestplan */,
+				F92E90F02BCB9767005127CD /* WAvE_haptics_watch Watch App */,
+				F92E91012BCB9768005127CD /* WAvE_haptics_watch Watch AppTests */,
+				F92E910B2BCB9768005127CD /* WAvE_haptics_watch Watch AppUITests */,
+				F92E90E72BCB9766005127CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F92E90E72BCB9766005127CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F92E90E62BCB9766005127CD /* WAvE_haptics_watch.app */,
+				F92E90EC2BCB9767005127CD /* WAvE_haptics_watch Watch App.app */,
+				F92E90FE2BCB9768005127CD /* WAvE_haptics_watch Watch AppTests.xctest */,
+				F92E91082BCB9768005127CD /* WAvE_haptics_watch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F92E90F02BCB9767005127CD /* WAvE_haptics_watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F92E90F12BCB9767005127CD /* WAvE_haptics_watchApp.swift */,
+				F92E90F32BCB9767005127CD /* ContentView.swift */,
+				F92E90F52BCB9768005127CD /* Assets.xcassets */,
+				F92E90F72BCB9768005127CD /* Preview Content */,
+			);
+			path = "WAvE_haptics_watch Watch App";
+			sourceTree = "<group>";
+		};
+		F92E90F72BCB9768005127CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F92E90F82BCB9768005127CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F92E91012BCB9768005127CD /* WAvE_haptics_watch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F92E91022BCB9768005127CD /* WAvE_haptics_watch_Watch_AppTests.swift */,
+			);
+			path = "WAvE_haptics_watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		F92E910B2BCB9768005127CD /* WAvE_haptics_watch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F92E910C2BCB9768005127CD /* WAvE_haptics_watch_Watch_AppUITests.swift */,
+			);
+			path = "WAvE_haptics_watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F92E90E52BCB9766005127CD /* WAvE_haptics_watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92E91162BCB9768005127CD /* Build configuration list for PBXNativeTarget "WAvE_haptics_watch" */;
+			buildPhases = (
+				F92E90E42BCB9766005127CD /* Resources */,
+				F92E91152BCB9768005127CD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F92E90EF2BCB9767005127CD /* PBXTargetDependency */,
+			);
+			name = WAvE_haptics_watch;
+			productName = WAvE_haptics_watch;
+			productReference = F92E90E62BCB9766005127CD /* WAvE_haptics_watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		F92E90EB2BCB9767005127CD /* WAvE_haptics_watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92E91122BCB9768005127CD /* Build configuration list for PBXNativeTarget "WAvE_haptics_watch Watch App" */;
+			buildPhases = (
+				F92E90E82BCB9767005127CD /* Sources */,
+				F92E90E92BCB9767005127CD /* Frameworks */,
+				F92E90EA2BCB9767005127CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WAvE_haptics_watch Watch App";
+			productName = "WAvE_haptics_watch Watch App";
+			productReference = F92E90EC2BCB9767005127CD /* WAvE_haptics_watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F92E90FD2BCB9768005127CD /* WAvE_haptics_watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92E91192BCB9768005127CD /* Build configuration list for PBXNativeTarget "WAvE_haptics_watch Watch AppTests" */;
+			buildPhases = (
+				F92E90FA2BCB9768005127CD /* Sources */,
+				F92E90FB2BCB9768005127CD /* Frameworks */,
+				F92E90FC2BCB9768005127CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F92E91002BCB9768005127CD /* PBXTargetDependency */,
+			);
+			name = "WAvE_haptics_watch Watch AppTests";
+			productName = "WAvE_haptics_watch Watch AppTests";
+			productReference = F92E90FE2BCB9768005127CD /* WAvE_haptics_watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F92E91072BCB9768005127CD /* WAvE_haptics_watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92E911C2BCB9768005127CD /* Build configuration list for PBXNativeTarget "WAvE_haptics_watch Watch AppUITests" */;
+			buildPhases = (
+				F92E91042BCB9768005127CD /* Sources */,
+				F92E91052BCB9768005127CD /* Frameworks */,
+				F92E91062BCB9768005127CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F92E910A2BCB9768005127CD /* PBXTargetDependency */,
+			);
+			name = "WAvE_haptics_watch Watch AppUITests";
+			productName = "WAvE_haptics_watch Watch AppUITests";
+			productReference = F92E91082BCB9768005127CD /* WAvE_haptics_watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F92E90E02BCB9766005127CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F92E90E52BCB9766005127CD = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F92E90EB2BCB9767005127CD = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F92E90FD2BCB9768005127CD = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F92E90EB2BCB9767005127CD;
+					};
+					F92E91072BCB9768005127CD = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F92E90EB2BCB9767005127CD;
+					};
+				};
+			};
+			buildConfigurationList = F92E90E32BCB9766005127CD /* Build configuration list for PBXProject "WAvE_haptics_watch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F92E90DF2BCB9766005127CD;
+			productRefGroup = F92E90E72BCB9766005127CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F92E90E52BCB9766005127CD /* WAvE_haptics_watch */,
+				F92E90EB2BCB9767005127CD /* WAvE_haptics_watch Watch App */,
+				F92E90FD2BCB9768005127CD /* WAvE_haptics_watch Watch AppTests */,
+				F92E91072BCB9768005127CD /* WAvE_haptics_watch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F92E90E42BCB9766005127CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92E90EA2BCB9767005127CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92E90F92BCB9768005127CD /* Preview Assets.xcassets in Resources */,
+				F92E90F62BCB9768005127CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92E90FC2BCB9768005127CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92E91062BCB9768005127CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F92E90E82BCB9767005127CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92E90F42BCB9767005127CD /* ContentView.swift in Sources */,
+				F92E90F22BCB9767005127CD /* WAvE_haptics_watchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92E90FA2BCB9768005127CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92E91032BCB9768005127CD /* WAvE_haptics_watch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92E91042BCB9768005127CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92E910D2BCB9768005127CD /* WAvE_haptics_watch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F92E90EF2BCB9767005127CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F92E90EB2BCB9767005127CD /* WAvE_haptics_watch Watch App */;
+			targetProxy = F92E90EE2BCB9767005127CD /* PBXContainerItemProxy */;
+		};
+		F92E91002BCB9768005127CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F92E90EB2BCB9767005127CD /* WAvE_haptics_watch Watch App */;
+			targetProxy = F92E90FF2BCB9768005127CD /* PBXContainerItemProxy */;
+		};
+		F92E910A2BCB9768005127CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F92E90EB2BCB9767005127CD /* WAvE_haptics_watch Watch App */;
+			targetProxy = F92E91092BCB9768005127CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F92E91102BCB9768005127CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F92E91112BCB9768005127CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F92E91132BCB9768005127CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WAvE_haptics_watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VKV62LTYN6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WAvE_haptics_watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WAvE.WAvE-haptics-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		F92E91142BCB9768005127CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WAvE_haptics_watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VKV62LTYN6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WAvE_haptics_watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WAvE.WAvE-haptics-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		F92E91172BCB9768005127CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKV62LTYN6;
+				INFOPLIST_KEY_CFBundleDisplayName = WAvE_haptics_watch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WAvE.WAvE-haptics-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F92E91182BCB9768005127CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKV62LTYN6;
+				INFOPLIST_KEY_CFBundleDisplayName = WAvE_haptics_watch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WAvE.WAvE-haptics-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F92E911A2BCB9768005127CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKV62LTYN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WAvE.WAvE-haptics-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WAvE_haptics_watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WAvE_haptics_watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		F92E911B2BCB9768005127CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKV62LTYN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WAvE.WAvE-haptics-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WAvE_haptics_watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WAvE_haptics_watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		F92E911D2BCB9768005127CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKV62LTYN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WAvE.WAvE-haptics-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WAvE_haptics_watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		F92E911E2BCB9768005127CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKV62LTYN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WAvE.WAvE-haptics-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WAvE_haptics_watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F92E90E32BCB9766005127CD /* Build configuration list for PBXProject "WAvE_haptics_watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92E91102BCB9768005127CD /* Debug */,
+				F92E91112BCB9768005127CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92E91122BCB9768005127CD /* Build configuration list for PBXNativeTarget "WAvE_haptics_watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92E91132BCB9768005127CD /* Debug */,
+				F92E91142BCB9768005127CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92E91162BCB9768005127CD /* Build configuration list for PBXNativeTarget "WAvE_haptics_watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92E91172BCB9768005127CD /* Debug */,
+				F92E91182BCB9768005127CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92E91192BCB9768005127CD /* Build configuration list for PBXNativeTarget "WAvE_haptics_watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92E911A2BCB9768005127CD /* Debug */,
+				F92E911B2BCB9768005127CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92E911C2BCB9768005127CD /* Build configuration list for PBXNativeTarget "WAvE_haptics_watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92E911D2BCB9768005127CD /* Debug */,
+				F92E911E2BCB9768005127CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F92E90E02BCB9766005127CD /* Project object */;
+}

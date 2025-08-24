@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "A2E4142D-ABF3-4C3C-81D8-5BECA2C07C70",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:WAvE_haptics_watch.xcodeproj",
+      "identifier" : "F92E90EB2BCB9767005127CD",
+      "name" : "WAvE_haptics_watch Watch App"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:WAvE_haptics_watch.xcodeproj",
+        "identifier" : "F92E90FD2BCB9768005127CD",
+        "name" : "WAvE_haptics_watch Watch AppTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:WAvE_haptics_watch.xcodeproj",
+        "identifier" : "F92E91072BCB9768005127CD",
+        "name" : "WAvE_haptics_watch Watch AppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
