@@ -17,9 +17,6 @@ camlist = pygame.camera.list_cameras()
 print("Available cameras:", camlist)
 
 filename = 'file:///'+os.getcwd()+'/' + 'waveweb.html'
-# xcode1 = 'WAvE_haptics_watch/WAvE_haptics_watch.xcodeproj'
-# xcode = '/Users/rohit/Documents/Conrad/software/WAvEAICODE-1/WAvE_haptics_watch/WAvE_haptics_watch.xcodeproj'
-
 webbrowser.open_new_tab(filename)
 
 
@@ -68,10 +65,8 @@ while counter != 0:
     data = json.dumps(predictionjson)
     print(data)
 
-    # Handling prediction results and logging to HTML
     if "Awake" in data:
         curTime = datetime.datetime.now().strftime("%H:%M:%S")
-        # Update HTML log only if the entry doesn't exist
         with open("waveweb.html", "r+") as f:
             if curTime not in f.read():
                 message = '''
@@ -86,9 +81,9 @@ while counter != 0:
                 '''.format(curTime, curTime)
                 f.write(message)
 
+        #Path to xcode watch application
         open_xcode_command = f"open /Users/rohit/Documents/Conrad/software/WAvEAICODE-1/WAvE_haptics_watch/WAvE_haptics_watch.xcodeproj"
         subprocess.run(open_xcode_command, shell=True)
-        # time.sleep(5)
         pyautogui.hotkey('command', 'r')
 
     time.sleep(1.5)
@@ -96,3 +91,4 @@ while counter != 0:
     time.sleep(1)
     time.sleep(10)
     pyautogui.hotkey('command', '.')
+
